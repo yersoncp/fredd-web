@@ -43,6 +43,20 @@ const Meta = () => (
       h3 {
         color: #ffF;
         font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
+      h4 {
+        color: #ffF;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+      }
+      .align-center {
+        text-align: center;
+      }
+      .nell {
+        padding: 2rem 0;
       }
     `}</style>
   </div>

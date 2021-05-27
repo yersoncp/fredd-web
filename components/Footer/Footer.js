@@ -22,15 +22,15 @@ const Footer = () => (
             
          </div>
 
-         <div>
+         {/* <div>
             <h3>Nosotros</h3>
             <Link href={linkMedium}><a className={s.menu} target="_blank">Blog</a></Link>
-            {/* <Link href={linkGithubCode}><a className={s.menu} target="_blank">Open source</a></Link> */}
-            {/* <Link href={linkDribbble}><a className={s.menu} target="_blank">Dribbble</a></Link> */}
-         </div>
+            <Link href={linkGithubCode}><a className={s.menu} target="_blank">Open source</a></Link>
+            <Link href={linkDribbble}><a className={s.menu} target="_blank">Dribbble</a></Link>
+         </div> */}
 
          <div>
-            <h3>Contacto</h3>
+            <h4>Contacto</h4>
             <Link href={linkContact}><a className={s.menu} target="_blank">Contacto</a></Link>
          </div>
       </div>
