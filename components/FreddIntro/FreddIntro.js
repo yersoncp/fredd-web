@@ -5,10 +5,10 @@ const FreddIntro = () => (
 
       <div className={s.fredd__inner}>
          <h2 className={s.title}>
-            Motor de <b>inteligencia predictiva</b> para ecommerce
+            Motor de recomendaciones basado en Inteligencia Artificial para <b>e-commerce</b>
          </h2>
          <h3 className={s.subtitle}>
-            Algoritmos de inteligencia artificial que genera recomendaciones personalizadas en web, móviles, correo electrónico y cualquier canal.
+            Algoritmos avanzados que genera recomendaciones personalizadas en web, móviles, correo electrónico y cualquier canal.
          </h3>
       </div>
 
@@ -26,6 +26,44 @@ const FreddIntro = () => (
          <div>
             <p className={s.emoji}>🛒</p>
             <p>Adapta al comportamiento de los surtidos, precios y ofertas especiales.</p>
+         </div>
+      </div>
+
+      <br />
+
+      <div className={s.column_two}>
+         <div>
+            <h3>
+               Ofrezca contenido relevante para cada cliente
+            </h3>
+            <p>Fredd se encarga de procesar datos y generar modelos avanzados a partir de las interacciones de los usuarios para mostrar contenido relevante.</p>
+         </div>
+         <div>
+            <img src="images/fredd-product-recommended.svg" />
+         </div>
+      </div>
+
+      <br />
+
+      <div className={s.column_four}>
+         <div>
+            <h3>
+               Recomendación de productos
+            </h3>
+            <p>Algoritmos avanzados para recomendar productos en base a otros productos.</p>
+         </div>
+         <div>
+            <img src="images/fredd-item-item.svg" />
+         </div>
+      
+         <div>
+            <h3>
+               Recomendación para tí
+            </h3>
+            <p>Procesamos tus interacciones para obtener una lista de produtos adaptado a tus preferencias.</p>
+         </div>
+         <div>
+            <img src="images/fredd-item-user.svg" />
          </div>
       </div>
 
@@ -49,7 +87,7 @@ const FreddIntro = () => (
          </div>
          <div>
             <h4>2. Fredd AI procesa datos</h4>
-            <p>La experiencia de Google para recomendar mediante modelos de aprendizaje automático de vanguardia.</p>
+            <p>Algoritmos avanzados de inteligencia artifical para recomendar mediante modelos de aprendizaje automático de vanguardia.</p>
          </div>
          <div>
             <h4>3. Mostrar recomendaciones a clientes</h4>

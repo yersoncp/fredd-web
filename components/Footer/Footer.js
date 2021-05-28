@@ -17,7 +17,7 @@ const Footer = () => (
                </a>
             </Link>
             <p className={s.slogan}>
-               Motor de inteligencia predictiva para negocios digitales.
+               Estamos construyendo algo que nos apasiona.
             </p>
             
          </div>

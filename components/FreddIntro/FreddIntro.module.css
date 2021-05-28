@@ -25,11 +25,29 @@
    margin: 0 auto;
 }
 
+.column_two {
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   grid-column-gap: 3rem;
+   padding: 2rem 0;
+}
+
+.column_four {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-column-gap: 3rem;
+   padding: 2rem 0;
+}
+
 @media (max-width: 600px) {
    .title {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 100;
-      line-height: 2.8rem;
+      line-height: 3rem;
+   }
+   .column_two,
+   .column_four {
+      display: block;
    }
 }
 .title b {
