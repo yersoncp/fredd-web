@@ -37,7 +37,7 @@ const Footer = () => (
 
       <div>
          <div className={s.copyright}>
-            <span>2021 © Fredd Technologies. All rights reserved.</span>
+            <span>2021 © Fredd AI Technology. All rights reserved.</span>
          </div>
       </div>
 
