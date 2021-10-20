@@ -90,7 +90,7 @@ const FreddIntro = () => (
             <p>Algoritmos avanzados de inteligencia artifical para recomendar mediante modelos de aprendizaje automático de vanguardia.</p>
          </div>
          <div>
-            <h4>3. Mostrar recomendaciones a clientes</h4>
+            <h4>3. Muestra recomendaciones a clientes</h4>
             <p>Ofrecer recomendaciones de alto valor en cualquier punto de contacto de los clientes.</p>
          </div>
       </div>
