@@ -4,11 +4,19 @@ import Meta from '../Meta/Meta';
 import Footer from '../Footer/Footer';
 
 const Layout = props => (
-   <div className="layout">
+   <div>
       <Meta />
-      <Header />
-      { props.children }
-      <Footer />
+
+      <div className="container">
+         <Header />
+         { props.children }
+      </div>
+      
+      <div className="footer">
+         <div className="container">
+            <Footer />
+         </div>
+      </div>
 
       <style jsx>{ style }</style>
    </div>

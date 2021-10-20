@@ -7,8 +7,8 @@ const linkContact = 'mailto:hola@zurvin.com';
 const linkGithubCode = '//github.com/yersoncp/zurvin-web-nextjs';
 
 const Footer = () => (
+   
    <div>
-
       <div className={s.footer}>
          <div>
             <Link href="/">
@@ -33,11 +33,11 @@ const Footer = () => (
             <h4>Contacto</h4>
             <Link href={linkContact}><a className={s.menu} target="_blank">Contacto</a></Link>
          </div>
-      </div>
 
-      <div>
-         <div className={s.copyright}>
-            <span>2021 © Fredd AI Technology. All rights reserved.</span>
+         <div>
+            <div className={s.copyright}>
+               <span>2021 © Fredd AI Technology. All rights reserved.</span>
+            </div>
          </div>
       </div>
 

@@ -1,9 +1,12 @@
 import css from "styled-jsx/css";
 
 export default css`
-   .layout {
-      max-width: 1180px;
+   .container {
       margin: 0 auto;
-      padding: 0 2rem;
+      max-width: 1200px;
+      padding: 0 20px;
+   }
+   .footer {
+      background: #151515;
    }
 `;
